@@ -21,7 +21,7 @@ public class UserController {
     public String showUserInfo(Model model) {    // передаем данные в представление
         User user = userService.findOne();
         model.addAttribute("user", user);
-        return "userPage";
+        return "user_page";
     }
 }
 

@@ -48,10 +48,6 @@ public class User {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
     }
@@ -78,10 +74,6 @@ public class User {
 
     public Set<Role> getRole() {
         return role;
-    }
-
-    public void setRole(Set<Role> role) {
-        this.role = role;
     }
 
     @Override

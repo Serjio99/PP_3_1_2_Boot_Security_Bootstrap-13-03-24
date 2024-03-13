@@ -8,6 +8,7 @@ public class WelcomeController {  // сделал кконтроллер для 
 
     @GetMapping("/")
     public String welcomePage() {
+
         return "welcome";
     }
 }

@@ -9,6 +9,7 @@ public class AuthenticationController {
 
     @GetMapping("/login")  // для обработки GET-запросов по адресу /login
     public String authentication() {
+
         return "login";
     }
 }
